@@ -16,7 +16,7 @@ $ nix-instantiate --eval --expr '"Hello " + "world"'
 "Hello world"
 
 $ nix-instantiate --eval --expr '(400 + 2) + (-5) + (5 * 30)'
--1860
+547
 
 $ nix-instantiate --eval --expr '(4 * 4 * 4) < (5 * 5 * 5)'
 true
